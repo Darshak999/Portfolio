@@ -1,0 +1,68 @@
+@font-face{
+    font-family: 'darshak';
+    src: url(../Fonts/Edu_AU_VIC_WA_NT_Hand\static\EduAUVICWANTHand-Medium.ttf);
+
+    /* Concert_One */
+    font-family: 'Concert_One_Bold';
+    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-Bold.ttf);
+
+    font-family: 'Concert_One_Medium';
+    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-Medium.ttf);
+
+    font-family: 'Concert_One_Regular';
+    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-Regular.ttf);
+
+    font-family: 'Concert_One_SemiBold';
+    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-SemiBold.ttf);
+
+}
+
+:root{
+    --primary-color: #ff651c;
+    --dark-color: #555;
+}
+
+body{
+    /* font-family: 'darshak'; */
+    font-family: 'Concert_One_SemiBold';
+
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'darshak';
+}
+.fist-last{
+    padding: 0 5px;
+    line-height: 35px;
+    font-weight: 600;
+    /* letter-spacing: 0px; */
+
+}
+.links{    
+
+    font-family: 'darshak';
+    padding: 0 5px;
+    line-height: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a:hover{
+    color: #cb612f;
+    text-decoration: none;
+}
+
+.text-primary{
+    color: var(--primary-color) !important;
+}
+
+.text-dark{
+    color: var(--primary-color);
+}

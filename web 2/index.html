@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -24,44 +23,80 @@
 <body>
 
     <!-- Hedar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <!-- barand name -->
-            <a class="navbar-brand fist-last" href="#">
-                <h4 class="md-0">Dar<span class="text-primary">shak</span></h4>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+    <header class="main-header">
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
+        <nav class="navbar header-nav navbar-expand-lg ">
+            <!-- <div class="container-fluid"> -->
+            <div class="container">
+                <!-- barand name -->
+                <a class="navbar-brand fist-last" href="#">
+                    <h4 class="md-0">Dar<span class="text-primary">shak</span></h4>
+                </a>
+
+
+                <!-- menu -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+                    <!--  div in  id="navbarSupportedContent" -->
+                    <ul class="navbar-nav mx-auto  links"> <!--class = me-auto mb-2 mb-lg-0 -->
+                        <li><!-- class="nav-item" -->
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#mydetal">My detal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#about_me">Abou Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home5</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Button -->
+                <div class="ms-auto d-lg-block fist-last ">
+                    <a class="colored-btn" href="#contact">Contact Non</a>
+                </div>
+
+                    <!-- mobil keliye -->
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- menu -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 links">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">My detal</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Abou Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Button -->
-            <div class="ms-auto d-lg-block fist-last ">
-                <a href="#contact">Contact Non</a>
-            </div>
+            </button> -->
 
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+     <main>
+        <!-- Home Section -->
+         <section id="home" class="home-section bg-gary">
+            <div class="container">
+                <div class="rov gy-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="home-intro text-center text-lg-start">
+                            <h6>Hi, My name is Darshak.</h6>
+                            <h1>I'm a Webdelopar</h1>
+                            <p>Besed in Park Avenue ,india</p>
+                            <a href="#about_me" class="colored-btn mt-1">
+                                About Me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="home-image text-center">
+                            <img src="/my photo/1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+     </main>
+
 
     <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 </body>

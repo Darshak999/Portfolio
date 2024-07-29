@@ -39,41 +39,23 @@ body{
     /* font-family: 'Concert_One_SemiBold'; */
     /* font-family: 'Oswald'; */
     /* font-family: 'RobotoSlab'; */
-
 }
 
 img{
     max-width: 100%;
 }
 
+.barand_name {
+    font-family: 'Concert_One_Bold';
+    font-size: 40px;
+    margin: 0;
+}
+
 a{
+    font-family: 'Oswald';
     color: var(--primary-color);
     text-decoration: none;
 }
-.fist-last{
-    /* font-family: 'Oswald'; */
-    font-family: 'RobotoSlab';
-
-    /* padding: 0 5px;
-    line-height: 35px;
-    font-weight: 600; */
-    /* letter-spacing: 0px; */
-
-}
-
-/* .links{    
-    font-family: 'Oswald';
-    padding: 0 5px;
-    line-height: 35px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-} */
-
-/* a:hover{
-    color: #cb612f;
-    text-decoration: none;
-} */
 
 .text-primary{
     color: var(--primary-color) !important;
@@ -134,8 +116,6 @@ a{
     width: 100%;
 }
 
-
-
 .colored-btn{
     padding: 8px 20px;
     border: 2px solid var(--primary-color);
@@ -163,6 +143,7 @@ a{
 
 .bg-gary{
     background-color: var(--dark-color) !important;
+    /* background-color:aquamarine; */
 }
 
 .bg-dark {
@@ -184,8 +165,18 @@ main {
 }
 
 .home-section .container {
+    /* background-color:aquamarine; */
     position: relative;
     z-index: 1;
 }
 
+.home-image img {
+    height: 450px;
+    width: 450px;
+    object-fit: cover ;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    z-index: -2 ; 
+}
 

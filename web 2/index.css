@@ -36,7 +36,7 @@
 
 body{
     /* font-family: 'darshak'; */
-    /* font-family: 'Concert_One_SemiBold'; */
+    font-family: 'Concert_One_SemiBold';
     /* font-family: 'Oswald'; */
     /* font-family: 'RobotoSlab'; */
     background:black;
@@ -208,6 +208,8 @@ main {
 /*  Skill Section */
 
 .skill {
+    /* font-family: 'Oswald'; */
+    font-family: 'RobotoSlab';
     background: gray;
     color:black;
 }
@@ -215,6 +217,8 @@ main {
 /* About_Me */
 
 .about_me {
+    font-family: 'Oswald';
     background: cornflowerblue;
     color: black;
+    
 } 

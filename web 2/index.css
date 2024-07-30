@@ -39,6 +39,7 @@ body{
     /* font-family: 'Concert_One_SemiBold'; */
     /* font-family: 'Oswald'; */
     /* font-family: 'RobotoSlab'; */
+    background:black;
 }
 
 img{
@@ -72,6 +73,8 @@ a{
     right: 0;
     z-index: 11;
     background: transparent;
+    /* background: #fff; */
+    background:skyblue;
     transition: 0.3s background;
 }
 
@@ -156,27 +159,62 @@ main {
 
 }
 
-/* Home secsan  */
-.home-section {
+/* Home Section  */
+
+.home {
     position: relative;
-    overflow: hidden;
-    padding-top: 150px;
-    padding-bottom: 100px;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    /* background:black; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    color:aqua;
 }
 
-.home-section .container {
-    /* background-color:aquamarine; */
-    position: relative;
-    z-index: 1;
+.home-content {
+    max-width: 600px;
 }
 
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.home-content p {
+    font-size: 20px;
+}
+
+/* Home image */
 .home-image img {
     height: 450px;
     width: 450px;
     object-fit: cover ;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid salmon;
     position: relative;
     z-index: -2 ; 
 }
 
+/*  Skill Section */
+
+.skill {
+    background: gray;
+    color:black;
+}
+
+/* About_Me */
+
+.about_me {
+    background: cornflowerblue;
+    color: black;
+} 

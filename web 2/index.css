@@ -119,6 +119,10 @@ a{
     width: 100%;
 }
 
+.links {
+    font-weight: bold;
+}
+
 .colored-btn{
     padding: 8px 20px;
     border: 2px solid var(--primary-color);
@@ -156,7 +160,6 @@ a{
 main {
     position: relative;
     z-index: 1;
-
 }
 
 /* Home Section  */
@@ -208,14 +211,133 @@ main {
     z-index: -2 ; 
 }
 
+.icon {
+    height: 2pc;
+    width: 2pc;
+    padding: 1px;
+    margin: 5px;
+}
+
+.icon:hover {
+    height: 2.5pc;
+    width: 2.5pc;
+    margin: 3px;
+}
 
 /*  Skill Section */
 
 .skill {
     /* font-family: 'Oswald'; */
     font-family: 'RobotoSlab';
-    background: gray;
-    color:black;
+    /* background: gray; */
+    background: #081b29;
+    color: white;
+    
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.sub-title span {
+    color: aqua;
+}
+
+.section {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.container1 {
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50ox;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+.Technical-bars .bar {
+    margin: 40px 0;
+}
+
+.Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.Technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.Technical-bars .bar .info {
+    margin-bottom: 5px;
+}
+
+.Technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.Technical-bars .bar .progress-link {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    animation: animats is cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* @keyframes animate{
+    100%{
+        transform: scaleX(1);
+    }
+} */
+
+.Technical-bars .bar .progress-link span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animats 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.progress-link.html span {
+    width: 80%;
+}
+
+.progress-link.css span {
+    width: 40%;
+}
+
+.progress-link.javaScript span {
+    width: 10%;
+}
+
+.progress-link.python span {
+    width: 50%;
+}
+
+.progress-link.c span {
+    width: 70%;
 }
 
 /* About_Me */

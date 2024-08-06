@@ -39,7 +39,7 @@ body{
     font-family: 'Concert_One_SemiBold';
     /* font-family: 'Oswald'; */
     /* font-family: 'RobotoSlab'; */
-    background:black;
+    background:white;
 }
 
 img{
@@ -67,7 +67,7 @@ a{
 }
 
 .main-header{
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -109,7 +109,7 @@ a{
     transition: ease all 0.3s;
 }
 
-.main-header .navbar-nav > li > .nav-link:hover {
+.main-header .navbar-nav > li > .nav-link:hover  {
     color: var(--primary-color);
 }
 
@@ -169,13 +169,14 @@ main {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
+    font-family: 'Concert_One_SemiBold';
     /* background:black; */
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
-    color:aqua;
+    color:black;
 }
 
 .home-content {
@@ -229,21 +230,25 @@ main {
 .skill {
     /* font-family: 'Oswald'; */
     font-family: 'RobotoSlab';
-    /* background: gray; */
-    background: #081b29;
-    color: white;
-    
+    /* background: #081b29; */
+    background: black;
+    /* background:blueviolet; */
+    color: white;   
 }
 
-.sub-title {
+.heading1 {
     text-align: center;
     font-size: 60px;
-    padding-bottom: 70px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 50px;
 }
 
-.sub-title span {
-    color: aqua;
+.heading1 span {
+    color: var(--primary-color);
+}
+
+.title span {
+    color: var(--primary-color);
 }
 
 .section {
@@ -254,20 +259,22 @@ main {
 .container1 {
     width: 600px;
     height: 500px;
-    padding: 75px 90px;
+    padding: 30px 10px;
     margin-left: 120px;
+    /* justify-content:end; */
 }
 
-.heading {
+.heading1_1 {
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 50ox;
+    font-size: 40px;
 }
 
 .bar {
-    font-size: 23px;
+    font-size: 25px;
 }
 
 .Technical-bars .bar {
@@ -298,7 +305,7 @@ main {
     border-radius: 10px;
     width: 100%;
     height: 5px;
-    background-color: black;
+    background-color: rgb(204, 14, 14);
     animation: animats is cubic-bezier(1,0,0,5,1) forwards;
     transform: scaleX(1);
     transform-origin: left;
@@ -342,10 +349,19 @@ main {
 
 /* About_Me */
 
+.heading2 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;  
+}
+
 .about_me {
     font-family: 'Oswald';
-    background: cornflowerblue;
-    color: black;
+    /* background: cornflowerblue; */
+    background: darkorchid;
+    color:black;
     
 } 
 
@@ -355,4 +371,47 @@ main {
     border-radius: 20%;
     border: 2px solid var(--primary-color);
     z-index: -2 ; 
+}
+
+
+/* contact  section */
+
+.heading3 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 100px;  
+}
+
+.contacts {
+    background: #000;
+    color: white;
+}
+
+.contact-content    {
+	display: flex;
+	justify-content: space-between ;
+	align-items: center;
+	padding: 5% 15%;
+    /* padding: 10px 20px; */
+	gap: 10em;
+}
+
+span {
+	color: orangered;
+}
+
+.child-contacts h3 {
+	text-align: left;
+	font-size: 20px;
+    /* background: orange; */
+	color: white;
+}
+
+.icon2 {
+    height: 2pc;
+    width: 2pc;
+    padding: 1px;
+    margin: 5px;
 }

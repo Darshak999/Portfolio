@@ -1,39 +1,27 @@
 @font-face{
-    font-family: 'darshak';
-    src: url(../Fonts/Edu_AU_VIC_WA_NT_Hand\static\EduAUVICWANTHand-Medium.ttf);
-
-    /* Concert_One */
-    font-family: 'Concert_One_Bold';
-    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-Bold.ttf);
-
-    font-family: 'Concert_One_Medium';
-    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-Medium.ttf);
-
-    font-family: 'Concert_One_Regular';
-    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-Regular.ttf);
-
-    font-family: 'Concert_One_SemiBold';
-    src: url(../Fonts/Concert_One/static/EduAUVICWANTHand-SemiBold.ttf);
-
+    font-family: "Concert One";
+    src: url(Fonts/Concert_One/static/EduAUVICWANTHand-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: 'RobotoSlab';
-    src: url(../Fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
+    font-family: "Roboto Slab";
+    src: url(Fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
 }
 
 @font-face{
-    /* Oswald */
-    font-family: 'Oswald';
-    src: url(../Fonts/Oswald/static/Oswald-Bold.ttf);
-
+    font-family: "Oswald";
+    src: url(Fonts/Oswald/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
 body{
-    /* font-family: 'darshak'; */
-    font-family: 'Concert_One_SemiBold';
-    /* font-family: 'Oswald'; */
-    /* font-family: 'RobotoSlab'; */
+    /* home */
+    /* font-family: "Concert One"; */
+   
+    /* skill */
+    /* font-family: "Roboto Slab"; */
+
+    /* about_me & navbar */
+    /* font-family: "Oswald"; */
 
     background:bisque;
     /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
@@ -47,13 +35,13 @@ img{
 }
 
 .barand_name {
-    font-family: 'Concert_One_Bold';
+    /* font-family: 'Concert_One_SemiBold'; */
     font-size: 40px;
     margin: 0;
 }
 
 a{
-    font-family: 'Oswald';
+    font-family: "Oswald";
     color: #ff651c;
     text-decoration: none;
 }
@@ -169,7 +157,7 @@ main {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    font-family: 'Concert_One_SemiBold';
+    font-family: "Concert One";
     /* background:black; */
     background-size: cover;
     background-position: center;
@@ -213,7 +201,7 @@ main {
     z-index: -2 ; 
 }
 
-.icon {
+.icon1 {
     height: 2pc;
     width: 2pc;
     padding: 1px;
@@ -222,7 +210,7 @@ main {
 
 }
 
-.icon:hover {
+.icon1:hover {
     /* height: 2.5pc; */
     /* width: 2.5pc; */
     /* margin: 3px; */
@@ -232,8 +220,7 @@ main {
 /*  Skill Section ---------------------------------------------------------------*/
 
 .skill {
-    /* font-family: 'Oswald'; */
-    font-family: 'RobotoSlab';
+    font-family: "Roboto Slab";
     /* background: #081b29; */
     background: black;
     /* background:blueviolet; */
@@ -364,8 +351,7 @@ main {
 }
 
 .about_me {
-    /* font-family: 'Oswald'; */
-    font-family: 'RobotoSlab';
+    font-family: "Oswald";
     font-weight: 900;
     /* background: cornflowerblue; */
     /* background: darkorchid; */
@@ -376,7 +362,7 @@ main {
     
 } 
 
-.img-fluid{
+.img-fluid {
     height: 20pc;
     width: 20pc;
     border-radius: 50%;
@@ -411,6 +397,7 @@ main {
 }
 
 .contacts {
+    font-family: "Concert One";
     background: #000;
     color: white;
 }

@@ -379,8 +379,8 @@ main {
 .img-fluid{
     height: 20pc;
     width: 20pc;
-    border-radius: 20%;
-    border: 1px solid black;
+    border-radius: 50%;
+    /* border: 1px solid black; */
     box-shadow: 0 0 1rem #ff651c,inset 0 0 1rem #ff651c,
     0 0 2rem #ff651c,inset 0 0 2rem #fd6620,
     0 0 1rem red,inset 0 0 1rem red;

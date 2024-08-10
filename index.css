@@ -134,16 +134,7 @@ a{
     box-shadow: 5px 5px 0 -2px #ff651c;
 }
 
-/* Main ---------------------------------------------------------------*/
-
-.bg-gary{
-    background-color: #555 !important;
-    /* background-color:aquamarine; */
-}
-
-.bg-dark {
-    background-color: #555 !important;
-}
+/* Main */
 
 main {
     position: relative;

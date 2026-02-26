@@ -52,18 +52,21 @@ Screenshots of the project are included to show:
 - Home Section
 <img width="1440" height="900" alt="Screenshot 2026-02-26 at 10 28 36 AM" src="https://github.com/user-attachments/assets/c1712ca8-12b8-44a6-917b-6a27565c6fc7" />
 
+- Skills Section
+<img width="1440" height="900" alt="Screenshot 2026-02-26 at 10 28 45 AM" src="https://github.com/user-attachments/assets/084f779b-e7c0-49a2-9199-af8d539c7dec" />
 
-  
-- Skills Section  
-- About Me Section  
+- About Me Section
+<img width="1440" height="900" alt="Screenshot 2026-02-26 at 10 29 03 AM" src="https://github.com/user-attachments/assets/bcca8eca-5071-4a7b-820f-3fff92090a3c" />
+
 - Contact Section  
+<img width="1440" height="900" alt="Screenshot 2026-02-26 at 10 29 24 AM" src="https://github.com/user-attachments/assets/86443cc1-650c-424b-a46e-8c4e6c87377d" />
 
 ---
 
 ## 📌 How to Run the Project
 
 1. Clone this repository
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/Darshak999/portfolio.git
 
 2. Open `index.html` in your browser  
 

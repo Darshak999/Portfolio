@@ -28,21 +28,23 @@ I am passionate about web development and love solving problems by building crea
 
 - HTML5  
 - CSS3  
-- JavaScript  
 
 ---
 
 ## 📂 Project Structure
 Portfolio/
 │── index.html
-│── css/
-│ └── style.css
-│── js/
-│ └── script.js
-│── images/
-│ └── (all images & icons)
-
-
+│── style.css
+│── Fonts/
+│ └── ( all Fonts Files )
+│── bootstrap-5.3.3-dist/
+│ └── ( all bootstrap Files )
+│── icon/
+│ └── ( all icon )
+│── my photo/
+│ └── (all images )
+│── Webside Photos/
+│ └── (all Webside images )
 
 ---
 
